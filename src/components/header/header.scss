@@ -1,0 +1,42 @@
+@import "../../styles/_variables.scss";
+
+.header {
+  padding: 10px 50px;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-logo {
+    a {
+      text-decoration: none;
+      color: $black;
+    }
+  }
+
+  &-nav {
+  }
+
+  &-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-weight: 600;
+  }
+
+  &-li {
+    a {
+      text-decoration: none;
+      color: $black;
+      transition: 0.25s all;
+
+      &:hover {
+        color: $primary-blue;
+        transition: 0.25s all;
+      }
+    }
+  }
+}
