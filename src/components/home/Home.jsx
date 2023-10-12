@@ -1,4 +1,4 @@
-import { LinkedIn, GitHub } from "../../assets/icons/Socials";
+import { LinkedInIcon, GitHubIcon } from "../../assets/icons/Socials";
 import data from "../../data/data.js";
 import avatar from "../../assets/images/avatar.png";
 import "./home.scss";
@@ -23,10 +23,10 @@ export const Home = () => {
             </p>
             <div className="home-socials">
               <a href="https://www.linkedin.com/in/prokopenyapavel/" className="home-socials-linkedin">
-                <LinkedIn />
+                <LinkedInIcon />
               </a>
               <a href="https://github.com/Albedo-13" className="home-socials-github">
-                <GitHub />
+                <GitHubIcon />
               </a>
             </div>
           </div>
