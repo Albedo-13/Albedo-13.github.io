@@ -8,6 +8,7 @@ export const PortfolioPage = () => {
       <Header />
       <Home />
       <About />
+      <div style={{minHeight: 250, backgroundColor: "grey"}}></div>
     </>
   );
 };

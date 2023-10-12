@@ -1,6 +1,8 @@
 import data from "../../data/data";
 import notebook from "../../assets/images/notebook.png";
+import cat from "../../assets/gifs/coding-cat.gif";
 import "./about.scss";
+import circledText from "../../assets/images/circled-text.svg";
 
 export const About = () => {
   return (
@@ -9,10 +11,11 @@ export const About = () => {
         <div className="about-wrapper">
           <div className="about-wrapper-left">
             <div className="about-img undraggable">
-              <img src={notebook} alt="" />
+              <img src={notebook} alt="notebook" />
             </div>
             <span className="about-label">
-
+              <img src={cat} alt="coding cat" className="about-label-image undraggable" />
+              <img src={circledText} className="about-label-text" alt="front-end web developer" />
             </span>
           </div>
           <div className="about-wrapper-right">
