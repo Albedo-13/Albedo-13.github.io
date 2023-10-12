@@ -1,4 +1,5 @@
 @import "../../styles/_variables.scss";
+@import "../../styles/_animations.scss";
 
 .about {
   padding: 17.5vh 0;
@@ -39,7 +40,7 @@
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    background-color: red;
+    background-color: $white;
 
     &-image {
       position: relative;
@@ -50,7 +51,16 @@
     }
 
     &-text {
-      
+      position: relative;
+      top: calc(-50% - 1px);
+      left: -3px;
+      vertical-align: middle;
+      width: 105%;
+      height: auto;
+
+      // left: 5px;
+
+      animation: linear rotate 12.5s infinite;
     }
   }
 

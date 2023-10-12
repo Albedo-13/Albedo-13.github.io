@@ -38,3 +38,7 @@ p {
 .undraggable {
   pointer-events: none;
 }
+
+.unselectable {
+  user-select: none;
+}
