@@ -2,12 +2,12 @@
 
 .home {
   background-color: $bg-color-gray;
-  min-height: 400px;
-  padding: 50px 0;
+  min-height: 72.5vh;
+  padding: 20vh 0 50px 0;
 
   &-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 
@@ -69,11 +69,12 @@
   &-skills {
     display: flex;
     align-items: center;
+    margin-top: 25px;
 
     &-wrapper {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 15px;
     }
 
     &-label {

@@ -1,7 +1,7 @@
-import "./home.scss";
-import avatar from "../../assets/images/avatar.png";
 import { LinkedIn, GitHub } from "../../assets/icons/Socials";
 import data from "../../data/data.js";
+import avatar from "../../assets/images/avatar.png";
+import "./home.scss";
 
 const Skills = ({ skills }) => {
   return skills.map((skill) => (

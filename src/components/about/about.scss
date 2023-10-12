@@ -1,0 +1,65 @@
+@import "../../styles/_variables.scss";
+
+.about {
+  padding: 50px 0;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+    &-left {
+      max-width: 50%;
+      position: relative;
+    }
+
+    &-right {
+      max-width: 50%;
+    }
+  }
+
+  &-img {
+    max-width: 400px;
+    height: auto;
+
+    img {
+      border-radius: 10px;
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+
+  &-label {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(15%, 15%);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: red;
+  }
+
+  &-title {
+    color: $primary-blue;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+
+  &-subtitle {
+    color: $dark-1;
+    font-size: 25px;
+    line-height: 1.4;
+    margin-top: 10px;
+  }
+
+  &-description {
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    color: $text-color-gray-2;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+}
