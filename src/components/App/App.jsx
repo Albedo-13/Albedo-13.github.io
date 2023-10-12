@@ -3,8 +3,6 @@ import { createBrowserRouter, RouterProvider, Route, Routes } from "react-router
 import { ScrollToTop } from "../utils/ScrollToTop";
 import { PortfolioPage } from "../pages/PortfolioPage";
 
-import "./app.scss";
-
 const router = createBrowserRouter([{ path: "*", Component: Root }]);
 
 export default function App() {

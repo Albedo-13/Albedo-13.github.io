@@ -9,7 +9,7 @@ export const Header = () => {
         <h3 className="header-logo">
           <a href="/">Albedo-13.dev</a>
         </h3>
-        <nav className="header-nav">
+        <nav>
           <ul className="header-ul">
             <li className="header-li">
               <HashLink href="#home">Home</HashLink>
