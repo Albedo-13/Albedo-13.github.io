@@ -16,9 +16,9 @@ export const Contact = () => {
             </div>
             <div className="contact-item-about">
               <p className="contact-item-title">Location</p>
-              <Link to="#" className="contact-item-subtitle">
+              <p className="contact-item-subtitle">
                 {data.location}
-              </Link>
+              </p>
             </div>
           </div>
           <div className="contact-item">

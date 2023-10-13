@@ -1,0 +1,44 @@
+@import "../../styles/_variables.scss";
+
+.portfolio {
+  padding: 125px 0;
+  background-color: $bg-color-gray;
+
+  &-subtitle {
+    margin-top: 15px;
+    margin-bottom: 60px;
+    font-size: 25px;
+  }
+
+  &-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+
+  &-item {
+    width: calc(100% - 40px);
+    background-color: $white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+    &-img {
+      width: 50%;
+      height: 345px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        transform: translateY(0%);
+        transition: transform 5s ease-in-out 0s;
+
+        &:hover {
+          transform: translateY(-50%);
+          transition: transform 5s ease-in-out 0s;
+        }
+      }
+    }
+  }
+}

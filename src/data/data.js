@@ -8,13 +8,16 @@ const data = {
   skills: ["html", "css", "scss", "js", "ts", "react", "mui"],
   projects: [
     {
-      name: "",
-      date: "",
+      id: "songbird",
+      name: "songbird",
+      icon: "X",
+      date: "xxx",
       description: "",
-      tech_stack: ["", ""],
-      github_link: "",
-      deployment_link: "",
+      tech_stack: ["JS", "SCSS"],
+      github_link: "https://github.com/Albedo-13/song-bird",
+      deployment_link: "https://song-bird-albedo.netlify.app/",
     },
+    {},
     {},
   ],
 };
