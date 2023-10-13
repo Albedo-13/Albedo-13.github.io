@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import data from "../../data/data.js";
-import { MapIcon, MailIcon } from "../../assets/icons/Socials";
+import { MapIcon, MailIcon } from "../../assets/icons/Icons.jsx";
 import "./contact.scss";
 
 export const Contact = () => {

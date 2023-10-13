@@ -40,5 +40,97 @@
         }
       }
     }
+
+    &-about {
+      display: flex;
+      flex-basis: 40%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    &-name {
+      color: $dark-1;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    &-description {
+      margin-top: 20px;
+      color: $text-color-gray-2;
+    }
+
+    &-skills {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    &-skill {
+      padding: 15px;
+    }
+
+    &-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-top: 20px;
+
+      &-github {
+        text-decoration: none;
+        height: 31px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: $black;
+        transition: $transition;
+
+        svg {
+          fill: $white;
+          transition: $transition;
+        }
+
+        &:hover {
+          color: $primary-blue;
+          transition: $transition;
+
+          svg {
+            transition: 0.35s all;
+            stroke: $primary-blue;
+          }
+        }
+      }
+
+      &-outer {
+        text-decoration: none;
+        height: 31px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: $black;
+        transition: $transition;
+
+        svg {
+          fill: $white;
+          transition: $transition;
+        }
+
+        &:hover {
+          color: $primary-blue;
+          transition: $transition;
+          
+          svg {
+            transition: 0.35s all;
+            stroke: $primary-blue;
+          }
+        }
+      }
+    }
+
+    &_reversed {
+      flex-direction: row-reverse;
+    }
   }
 }

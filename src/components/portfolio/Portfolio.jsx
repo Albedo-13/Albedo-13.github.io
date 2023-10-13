@@ -1,26 +1,49 @@
 import { Link } from "react-router-dom";
+import classnames from "classnames";
 
 import data from "../../data/data.js";
 import "./portfolio.scss";
+import { GitHubIcon, OuterLinkIcon } from "../../assets/icons/Icons.jsx";
 import songbird from "../../assets/images/portfolio-previews/songbird-preview.webp";
 import marvelapi from "../../assets/images/portfolio-previews/marvelapi-preview.png";
 
 const PortfolioProject = ({ project, image }) => {
+  const itemClasses = classnames("portfolio-item", { "portfolio-item_reversed": project.id % 2 === 0 }, "box_rounded");
+
   return (
-    <div className="portfolio-item box_rounded">
+    <div className={itemClasses}>
       <Link to="#" className="portfolio-item-img box_rounded">
         <img src={image} alt={project.name} className="" />
-        [image]
       </Link>
       <div className="portfolio-item-about">
-        <div className="portfolio-item-name">{project.name}</div>
+        <div className="portfolio-item-name">
+          {project.name} {project.icon}
+        </div>
+        <div className="portfolio-item-description">{project.description}</div>
+        <div className="portfolio-item-skills">
+          {project.tech_stack.map((skill) => (
+            <div key={skill} className="portfolio-item-skill box">
+              {skill}
+            </div>
+          ))}
+        </div>
+        <div className="portfolio-item-links">
+          <a href={project.github_link} className="portfolio-item-links-github">
+            Github
+            <GitHubIcon />
+          </a>
+          <a href={project.deployment_link} className="portfolio-item-links-outer">
+            Live Demo
+            <OuterLinkIcon />
+          </a>
+        </div>
       </div>
     </div>
   );
 };
 
 export const Portfolio = () => {
-  const imagesArray = [songbird, marvelapi];
+  const imagesArray = [marvelapi, "", songbird];
 
   return (
     <section className="portfolio">

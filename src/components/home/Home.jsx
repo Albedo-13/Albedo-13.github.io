@@ -1,4 +1,4 @@
-import { LinkedInIcon, GitHubIcon } from "../../assets/icons/Socials";
+import { LinkedInIcon, GitHubIcon } from "../../assets/icons/Icons";
 import data from "../../data/data.js";
 import avatar from "../../assets/images/avatar.png";
 import "./home.scss";
