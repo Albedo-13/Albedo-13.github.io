@@ -4,8 +4,10 @@ import classnames from "classnames";
 import data from "../../data/data.js";
 import "./portfolio.scss";
 import { GitHubIcon, OuterLinkIcon } from "../../assets/icons/Icons.jsx";
+import cryptolimbo from "../../assets/images/portfolio-previews/crypto-limbo-preview.webp";
+import marvelapi from "../../assets/images/portfolio-previews/marvelapi-preview.webp";
+import coffeehouse from "../../assets/images/portfolio-previews/coffee-house-preview.webp";
 import songbird from "../../assets/images/portfolio-previews/songbird-preview.webp";
-import marvelapi from "../../assets/images/portfolio-previews/marvelapi-preview.png";
 
 const PortfolioProject = ({ project, image }) => {
   const itemClasses = classnames("portfolio-item", { "portfolio-item_reversed": project.id % 2 === 0 }, "box_rounded");
@@ -43,7 +45,7 @@ const PortfolioProject = ({ project, image }) => {
 };
 
 export const Portfolio = () => {
-  const imagesArray = ["", marvelapi, "", songbird];
+  const imagesArray = [cryptolimbo, marvelapi, coffeehouse, songbird];
 
   return (
     <section className="portfolio" id="projects">
