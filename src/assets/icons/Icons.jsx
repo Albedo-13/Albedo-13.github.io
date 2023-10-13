@@ -83,3 +83,13 @@ export const OuterLinkIcon = () => {
     </svg>
   );
 };
+
+export const BurgerIcon = () => {
+  return (
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <path d="M28,10H4A1,1,0,0,1,4,8H28a1,1,0,0,1,0,2Z" />
+      <path d="M28,17H4a1,1,0,0,1,0-2H28a1,1,0,0,1,0,2Z" />
+      <path d="M28,24H4a1,1,0,0,1,0-2H28a1,1,0,0,1,0,2Z" />
+    </svg>
+  );
+};
