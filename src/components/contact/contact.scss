@@ -1,0 +1,73 @@
+@import "../../styles/_variables.scss";
+
+.contact {
+  padding: 100px 0;
+
+  &-subtitle {
+    margin-top: 15px;
+    font-size: 25px;
+  }
+
+  &-wrapper {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+
+  &-item {
+    display: flex;
+    gap: 10px;
+
+    &-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+    }
+
+    &-about {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &-title {
+      font-size: 17px;
+      color: $dark-1;
+      font-weight: 700;
+    }
+
+    &-subtitle {
+      color: $text-color-gray-2;
+      transition: $transition;
+      text-decoration: none;
+      font-weight: 400;
+
+      &:hover {
+        transition: $transition;
+        color: $primary-blue;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 929px) {
+  .contact {
+    padding: 60px 0;
+    &-wrapper {
+      justify-content: center;
+    }
+    &-item {
+      flex-direction: column;
+      align-items: center;
+
+      &-about {
+        align-items: center;
+      }
+    }
+  }
+}
