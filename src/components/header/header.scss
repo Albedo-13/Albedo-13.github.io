@@ -52,8 +52,9 @@
   display: none;
 }
 
-@media (max-width: 949px) {
+@media (max-width: 929px) {
   .header {
+    padding: 23px 30px;
     &-li {
       display: none;
     }

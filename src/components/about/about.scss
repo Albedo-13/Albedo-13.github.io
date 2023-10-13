@@ -77,10 +77,21 @@
   }
 }
 
-@media (max-width: 949px) {
+@media (max-width: 929px) {
   .about {
+    padding-top: 60px;
     &-wrapper {
       flex-direction: column-reverse;
+
+      &-left,
+      &-right {
+        max-width: 90%;
+      }
+    }
+
+    &-label {
+      right: 50%;
+      transform: translate(50%, 50%);
     }
   }
 }
