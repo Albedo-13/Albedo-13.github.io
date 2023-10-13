@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import data from "../../data/data.js";
 import "../../styles/cv-styles.scss";
 import avatar from "../../assets/images/avatar.png";
@@ -23,32 +24,32 @@ export const CVPage = () => {
               </li>
               <li className="cv-github">
                 <i className="fa fa-github"></i>
-                <a className="cv-a" rel="noreferrer" href={data.github_account} target="_blank">
+                <Link className="cv-a" rel="noreferrer" to={data.github_account} target="_blank">
                   github.com/Albedo-13
-                </a>
+                </Link>
               </li>
               <li className="cv-linkedin">
                 <i className="fa fa-linkedin-square"></i>
-                <a
+                <Link
                   className="cv-a"
                   rel="noreferrer"
-                  href={data.linkedin_account}
+                  to={data.linkedin_account}
                   target="_blank"
                 >
                   linkedin/prokopenyapavel
-                </a>
+                </Link>
               </li>
               <li className="cv-skype">
                 <i className="fa fa-skype"></i>
-                <a className="cv-a" rel="noreferrer" href="skype:live:pavel12minsk?chat" target="_blank">
+                <Link className="cv-a" rel="noreferrer" to="skype:live:pavel12minsk?chat" target="_blank">
                   Skype account
-                </a>
+                </Link>
               </li>
               <li>
                 <i className="fa fa-globe"></i>
-                <a className="cv-a" rel="noreferrer" href={data.personal_site} target="_blank">
+                <Link className="cv-a" rel="noreferrer" to={data.personal_site} target="_blank">
                   Personal site
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -172,9 +173,9 @@ const Project = ({ project }) => {
   return (
     <div className="cv-item">
       <span className="cv-project-title">
-        <a className="cv-a" rel="noreferrer" href={project.deployment_link} target="_blank">
+        <Link className="cv-a" rel="noreferrer" to={project.deployment_link} target="_blank">
           {project.name}
-        </a>
+        </Link>
       </span>
       <span className="cv-project-tagline">
         {` - ${project.description}`}
