@@ -9,6 +9,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </React.StrictMode>
 );
 
-// TODO: mobile adaptation: header burger, flex orientation
 // TODO: import CV, make as component (single?). Add link to CV
 // TODO: png to webp
