@@ -56,6 +56,7 @@ export const Header = () => {
         <h3 className="header-logo">
           <Link to="/">Albedo-13.dev</Link>
         </h3>
+        <Link className="header-cv" to="/cv" target="_blank" rel="noreferrer">👉My CV👈</Link>
         <nav>
           <ul className="header-ul">
             <NavLinks />

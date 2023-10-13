@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider, Route, Routes } from "react-router
 
 import { ScrollToTop } from "../utils/ScrollToTop";
 import { PortfolioPage } from "../pages/PortfolioPage";
+import { CVPage } from "../pages/CVPage";
 
 const router = createBrowserRouter([{ path: "*", Component: Root }]);
 
@@ -15,7 +16,7 @@ function Root() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<PortfolioPage />} />
-        <Route path="/CV" element={<PortfolioPage />} />
+        <Route path="/cv" element={<CVPage />} />
       </Routes>
     </>
   );
