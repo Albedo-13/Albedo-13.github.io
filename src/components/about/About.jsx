@@ -1,5 +1,5 @@
 import data from "../../data/data";
-import notebook from "../../assets/images/notebook.png";
+import notebook from "../../assets/images/Notebook.png";
 import cat from "../../assets/gifs/coding-cat.gif";
 import "./about.scss";
 import circledText from "../../assets/images/circled-text.png";
