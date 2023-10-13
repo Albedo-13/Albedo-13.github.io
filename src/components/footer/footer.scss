@@ -1,0 +1,46 @@
+@import "../../styles/_variables.scss";
+
+.footer {
+  background-color: $dark-1;
+  padding: 50px 0;
+  color: $white;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-title {
+    font-weight: 700;
+  }
+
+  &-socials {
+    &-linkedin {
+      margin-right: 15px;
+
+      svg {
+        fill: $white;
+        transition: $transition;
+
+        &:hover {
+          fill: $primary-blue;
+          transition: $transition;
+        }
+      }
+    }
+
+    &-github {
+      svg {
+        fill: transparent;
+        stroke: $white;
+        transition: $transition;
+
+        &:hover {
+          stroke: $primary-blue;
+          transition: $transition;
+        }
+      }
+    }
+  }
+}

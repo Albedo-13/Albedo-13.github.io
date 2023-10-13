@@ -43,7 +43,7 @@ const PortfolioProject = ({ project, image }) => {
 };
 
 export const Portfolio = () => {
-  const imagesArray = [marvelapi, "", songbird];
+  const imagesArray = ["", marvelapi, "", songbird];
 
   return (
     <section className="portfolio">

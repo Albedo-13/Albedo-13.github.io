@@ -9,6 +9,15 @@ const data = {
   projects: [
     {
       id: 1,
+      name: "Crypto Limbo",
+      icon: "📊",
+      description: "Filler text here",
+      tech_stack: ["React", "Redux", "MUI", "SCSS"],
+      github_link: "",
+      deployment_link: "",
+    },
+    {
+      id: 2,
       name: "Marvel API",
       icon: "🦸",
       description: "Project based on Marvel API service. Interactive application that contains data about characters and comics inside this universe",
@@ -17,7 +26,7 @@ const data = {
       deployment_link: "https://marvel-api-albedo.netlify.app",
     },
     {
-      id: 2,
+      id: 3,
       name: "Coffee House",
       icon: "☕",
       description: "A coffee house is an easy-to-use showcase website that provides an opportunity for customers to get acquainted with our assortment of coffee, collected from different parts of the world especially for you, my dear reader. Come take a look!",
@@ -26,7 +35,7 @@ const data = {
       deployment_link: "https://coffee-house-albedo.netlify.app/",
     },
     {
-      id: 3,
+      id: 4,
       name: "Songbird",
       icon: "🐦",
       description: "Songbird is a quiz application that allows the user to test their skills in identifying birds by their singing. It's harder than it looks!",
