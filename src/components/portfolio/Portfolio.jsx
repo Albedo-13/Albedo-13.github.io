@@ -28,11 +28,11 @@ const PortfolioProject = ({ project, image }) => {
           ))}
         </div>
         <div className="portfolio-item-links">
-          <Link to={project.github_link} className="portfolio-item-links-github">
+          <Link target="_blank" rel="noreferrer" to={project.github_link} className="portfolio-item-links-github">
             Github
             <GitHubIcon />
           </Link>
-          <Link to={project.deployment_link} className="portfolio-item-links-outer">
+          <Link target="_blank" rel="noreferrer" to={project.deployment_link} className="portfolio-item-links-outer">
             Live Demo
             <OuterLinkIcon />
           </Link>
