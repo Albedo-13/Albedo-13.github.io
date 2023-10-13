@@ -14,7 +14,7 @@ const PortfolioProject = ({ project, image }) => {
 
   return (
     <div className={itemClasses}>
-      <Link to="#" className="portfolio-item-img box_rounded">
+      <Link target="_blank" rel="noreferrer" to={project.deployment_link} className="portfolio-item-img box_rounded">
         <img src={image} alt={project.name} className="" />
       </Link>
       <div className="portfolio-item-about">
