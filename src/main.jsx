@@ -8,6 +8,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>
 );
-
-// TODO: import CV, make as component (single?). Add link to CV
-// TODO: png to webp
