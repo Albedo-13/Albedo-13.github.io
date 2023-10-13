@@ -21,6 +21,7 @@
         width: 100%;
         height: auto;
         border-radius: 100%;
+        vertical-align: middle;
       }
     }
   }
@@ -95,6 +96,39 @@
       &:hover {
         transform: translateY(-20%);
         transition: $transition;
+      }
+    }
+  }
+}
+
+@media (max-width: 949px) {
+  .home {
+    padding: 17.5vh 0;
+    &-wrapper {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+
+    &-title {
+      margin-top: 25px;
+    }
+
+    &-socials {
+      justify-content: center;
+      gap: 35px;
+    }
+
+    &-skills {
+      justify-content: center;
+
+      &-label {
+        padding: 10px;
+      }
+      
+
+      &-wrapper {
+        gap: 5px;
+        flex-wrap: wrap;
       }
     }
   }

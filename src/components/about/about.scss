@@ -76,3 +76,11 @@
     margin-top: 20px;
   }
 }
+
+@media (max-width: 949px) {
+  .about {
+    &-wrapper {
+      flex-direction: column-reverse;
+    }
+  }
+}
