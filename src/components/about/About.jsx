@@ -6,7 +6,7 @@ import circledText from "../../assets/images/circled-text.png";
 
 export const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="container">
         <div className="about-wrapper">
           <div className="about-wrapper-left">

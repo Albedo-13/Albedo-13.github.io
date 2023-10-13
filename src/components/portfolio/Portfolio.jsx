@@ -28,14 +28,14 @@ const PortfolioProject = ({ project, image }) => {
           ))}
         </div>
         <div className="portfolio-item-links">
-          <a href={project.github_link} className="portfolio-item-links-github">
+          <Link to={project.github_link} className="portfolio-item-links-github">
             Github
             <GitHubIcon />
-          </a>
-          <a href={project.deployment_link} className="portfolio-item-links-outer">
+          </Link>
+          <Link to={project.deployment_link} className="portfolio-item-links-outer">
             Live Demo
             <OuterLinkIcon />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -46,7 +46,7 @@ export const Portfolio = () => {
   const imagesArray = ["", marvelapi, "", songbird];
 
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="projects">
       <div className="container">
         <h3 className="title">Portfolio</h3>
         <h4 className="portfolio-subtitle">Each project is a unique piece of development 🧩</h4>
