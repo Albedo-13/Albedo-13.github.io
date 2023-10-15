@@ -26,7 +26,7 @@ export const Contact = () => {
               <MailIcon />
             </div>
             <div className="contact-item-about">
-              <p className="contact-item-title">Location</p>
+              <p className="contact-item-title">Mail</p>
               <Link to={`mailto:${data.email}`} className="contact-item-subtitle">
                 {data.email}
               </Link>
