@@ -15,10 +15,10 @@ const data = {
       id: 1,
       name: "Crypto Limbo",
       icon: "📊",
-      description: "(⚙️WORK IN PROGRESS⚙️) Crypto Limbo is a crypto app that allows users to search, track, buy and sell various cryptocurrencies and much more!",
+      description: "Crypto Limbo is a crypto app that allows users to search, track, buy and sell various cryptocurrencies and much more!",
       tech_stack: ["React", "Redux", "MUI", "SCSS"],
       github_link: "https://github.com/Albedo-13/crypto-limbo",
-      deployment_link: "https://unfinished-crypto-limbo-albedo-13.netlify.app/",
+      deployment_link: "https://crypto-limbo-albedo-13.netlify.app/",
     },
     {
       id: 2,
