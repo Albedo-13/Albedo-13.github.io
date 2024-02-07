@@ -100,10 +100,10 @@ export const CVPage = () => {
                 Hey there! My name is Paul and I am 22 years old, was graduated from the Faculty of Information
                 Technology Software at College of Business and Law. At the moment, i entered the BSUIR in the same
                 specialty for distance learning. As a Junior Front-End Developer, I possess an impressive arsenal of
-                skills in HTML, CSS, JavaScript, React, Redux, Material UI, and SCSS. I excel in designing and
-                maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting
-                dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge
-                development tools and techniques.
+                skills in HTML, CSS, JavaScript, React, Redux, Material UI, and SCSS. Currently im improving my 
+                skills with Next.js and Tailwind. I excel in designing and maintaining responsive websites that offer 
+                a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing 
+                clean and optimized code and utilizing cutting-edge development tools and techniques.
               </p>
             </div>
           </section>
@@ -136,7 +136,9 @@ export const CVPage = () => {
                     <li>- Javascript + Typescript</li>
                     <li>- React</li>
                     <li>- Redux (Redux Toolkit)</li>
+                    <li>- Next.js</li>
                     <li>- Material UI</li>
+                    <li>- Tailwind</li>
                     <li>- Git version control system (Github)</li>
                   </ul>
                 </div>
