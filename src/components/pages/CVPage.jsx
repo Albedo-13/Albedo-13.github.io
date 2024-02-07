@@ -63,7 +63,7 @@ export const CVPage = () => {
             <div className="cv-item">
               <h4 className="cv-degree">University education</h4>
               <h5 className="cv-meta">Belarusian State University of Informatics and Radioelectronics</h5>
-              <div className="cv-time">2021 - 2024</div>
+              <div className="cv-time">2021 - 2025</div>
             </div>
           </div>
 
